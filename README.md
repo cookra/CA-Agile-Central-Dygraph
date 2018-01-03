@@ -1,6 +1,9 @@
 DvCookra_1
 =========================
 
+
+[![Build Status](https://travis-ci.org/cookra/CA-Agile-Central-Dygraph.png?branch=master)](https://travis-ci.org/cookra/CA-Agile-Central-Dygraph)
+
 ## Overview
 
 

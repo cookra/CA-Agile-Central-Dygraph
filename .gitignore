@@ -11,3 +11,6 @@ node_modules
 #test files
 _SpecRunner.html
 .grunt
+
+.DS_Store
+./.DS_Store

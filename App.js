@@ -1,9 +1,19 @@
 Ext.define('CustomApp', {
     extend: 'Rally.app.App',
     componentCls: 'app',
+
+    "test should call subscribers on publish": function () {
+        var callback = sinon.spy();
+        PubSub.subscribe("message", callback);
+
+        PubSub.publishSync("message");
+
+        assertTrue(callback.called);
+    },
+
     launch: function () {
-        //Write app code here
-        console.log("Start ");
+        var spy = sinon.spy(launch);
+        console.log("Start !");
         var g = new Dygraph(
 
             // containing div

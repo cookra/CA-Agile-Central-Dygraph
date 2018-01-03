@@ -28,9 +28,9 @@ if (module) {
                     src: config.javascript,
                     options: {
                         styles: config.css,
-                        vendor:[
-                          'node_modules/rally-sdk2-test-utils/src/sdk/' + config.sdk + '/sdk-debug.js',
-                          'node_modules/rally-sdk2-test-utils/dist/sdk2-test-utils.js'
+                        vendor: [
+                            'node_modules/rally-sdk2-test-utils/src/sdk/' + config.sdk + '/sdk-debug.js',
+                            'node_modules/rally-sdk2-test-utils/dist/sdk2-test-utils.js'
                         ],
                         template: 'node_modules/rally-sdk2-test-utils/lib/specs.tmpl',
                         specs: "test/**/" + spec + "Spec.js",
